@@ -154,7 +154,9 @@ hr {
   .section-title {
     text-align: center;
   }
-  .players {
+  .players,
+  .blogs,
+  .courses {
     grid-template-columns: repeat(1, 1fr);
   }
   .top-player {
@@ -162,16 +164,24 @@ hr {
     flex-direction: column;
   }
 
+  .blog {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .courses {
+    justify-items: center;
+  }
+  .course {
+    margin-bottom: 15px;
+  }
   /* Courses section  */
 
-  .blogs {
+  /* .blogs {
     grid-template-columns: repeat(1, 1fr);
   }
   .blog {
     flex-direction: column;
     align-items: center;
-  }
-  .courses {
-    display: none;
-  }
+  } */
 }
